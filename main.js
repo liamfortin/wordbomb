@@ -5,6 +5,8 @@ fetch("test.txt")
     var wordArray = [];
     for (i = 0; i < wordCount; i++) {
     wordArray[i] = text;
+    console.log(text);
+    console.log(wordArray);
     }
    })
   .catch((e) => console.error(e));
